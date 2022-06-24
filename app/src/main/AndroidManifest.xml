@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recetas">
         <activity
+            android:name=".Detalle_postre1"
+            android:exported="false" />
+        <activity
             android:name=".PrimerPlato"
             android:exported="false" />
         <activity

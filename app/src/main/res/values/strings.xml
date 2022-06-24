@@ -16,4 +16,7 @@
     <string name="bt_tartaQueso">Tarta de Queso</string>
     <string name="bt_Churros">Churros</string>
 
+    <string name="tv_Ingredientes">Ingredientes</string>
+    <string name="tv_PasosReceta">Pasos a seguir</string>
+
 </resources>
