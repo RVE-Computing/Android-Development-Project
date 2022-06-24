@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Recetas</string>
+    <string name="bt_PrimerPlato">Primer plato</string>
+    <string name="bt_SegundoPlato">Segundo plato</string>
+    <string name="bt_Postres">Postres</string>
+
+    <string name="bt_Macarrones">Macarrones</string>
+    <string name="bt_Sopa">Sopa</string>
+    <string name="bt_HuevoFrito">Huevo frito</string>
+
+    <string name="bt_Hamburguesa">Hamburguesa</string>
+    <string name="bt_Ensalada">Ensalada</string>
+    <string name="bt_Salmon">Salmón</string>
+
+    <string name="bt_Macedonia">Macedonia</string>
+    <string name="bt_tartaQueso">Tarta de Queso</string>
+    <string name="bt_Churros">Churros</string>
+
+</resources>
