@@ -13,19 +13,19 @@ public class activity_segundo_plato extends Activity {
         setContentView(R.layout.activity_segundo_plato);
     }
 
-    //Metodo del boton para ir a Macarrones
+    //Metodo del boton para ir a Hamburguesa
     public void hamburguesa(View view){
         Intent hamburguesa = new Intent(this, Hamburguesa.class);
         startActivity(hamburguesa);
     }
 
-    //Metodo del boton para ir a Sopa
+    //Metodo del boton para ir a Ensalada
     public void ensalada(View view){
         Intent ensalada = new Intent(this, Ensalada.class);
         startActivity(ensalada);
     }
 
-    //Metodo del boton para ir a Huevo frito
+    //Metodo del boton para ir a Salmon
     public void salmon(View view){
         Intent salmon = new Intent(this, Salmon.class);
         startActivity(salmon);

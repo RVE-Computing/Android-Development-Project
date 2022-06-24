@@ -14,26 +14,31 @@ public class activity_postre {
 
     private void setContentView(int activity_postre) {
 
+        //La idea puede ser 1 pantalla por postre o 1 pantalla de contenido variable en funcion del botón
+
         //Metodo del boton para ir a macedonia
         public void macedonia(View view){
-            Intent macedonia = new Intent(this, Macedonia.class);
+            Intent macedonia = new Intent(this, Detalle_postre1.class);
             startActivity(macedonia);
         }
 
-        //Metodo del boton para ir a Sopa
+        //Metodo del boton para ir a Tarta de queso
         public void tartaqueso(View view){
-            Intent tartaqueso = new Intent(this, TartaQueso.class);
+            Intent tartaqueso = new Intent(this, Detalle_postre1.class);
             startActivity(tartaqueso);
         }
 
-        //Metodo del boton para ir a Huevo frito
-        public void salmon(View view){
-            Intent salmon = new Intent(this, Salmon.class);
-            startActivity(salmon);
+        //Metodo del boton para ir a Churros
+        public void churros(View view){
+            Intent churros = new Intent(this, Detalle_postre1.class);
+            startActivity(churros);
         }
     }
 
 
 
+
 }
+
+
 

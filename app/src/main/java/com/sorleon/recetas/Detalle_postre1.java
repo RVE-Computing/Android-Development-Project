@@ -9,8 +9,9 @@ public class Detalle_postre1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detalle_postre1);
-    }
+            setContentView(R.layout.activity_detalle_postre1);
+        }
 
 
 }
+
