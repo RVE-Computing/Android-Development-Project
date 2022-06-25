@@ -3,32 +3,30 @@ package com.sorleon.recetas;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    Button btnLogin;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        btnLogin = findViewById(R.id.btnLogin);
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, FirstActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
-    //Metodo del boton para ir a Primer plato
-    public void primerPlato(View view){
-        Intent primerPlato = new Intent(this, PrimerPlato.class);
-        startActivity(primerPlato);
-    }
 
-    //Metodo del boton para ir a Segundo plato
-    public void segundoPlato(View view){
-        Intent segundoPlato = new Intent(this, SegundoPlato.class);
-        startActivity(segundoPlato);
-    }
 
-    //Metodo del boton para ir a Postre
-    public void postre(View view){
-        Intent postre = new Intent(this, activity_postre.class);
-        startActivity(postre);
-    }
+
 }
