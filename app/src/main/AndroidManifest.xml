@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recetas">
         <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddRecipeActivity"
+            android:exported="false" />
+        <activity
             android:name=".FirstActivity"
             android:exported="false" />
         <activity

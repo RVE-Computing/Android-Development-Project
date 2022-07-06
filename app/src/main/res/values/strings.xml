@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Recetas</string>
+    <string name="app_name">Recipes</string>
     <string name="bt_PrimerPlato">Primer plato</string>
     <string name="bt_SegundoPlato">Segundo plato</string>
     <string name="bt_Postres">Postres</string>
@@ -18,5 +18,8 @@
 
     <string name="tv_Ingredientes">Ingredientes</string>
     <string name="tv_PasosReceta">Pasos a seguir</string>
+    <string name="tasks">Recipes</string>
+    <string name="new_recipe">New Recipe</string>
+    <string name="save">Save</string>
 
 </resources>
